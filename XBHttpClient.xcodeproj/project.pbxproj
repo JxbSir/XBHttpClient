@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96D6F30C005C453CE7A615DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A034118128643DCFA26B32 /* libPods.a */; };
+		D04E373A1A7B5EB8003442AD /* XBHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E37391A7B5EB8003442AD /* XBHttpClient.m */; };
+		D04E37401A7B6A9E003442AD /* XBApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E373F1A7B6A9E003442AD /* XBApi.m */; };
+		D04E37471A7B7C66003442AD /* XBBaseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E37461A7B7C66003442AD /* XBBaseParser.m */; };
+		D04E374A1A7B7D49003442AD /* XBJsonParserEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E37491A7B7D49003442AD /* XBJsonParserEngine.m */; };
+		D04E374D1A7B7E5F003442AD /* XBParserFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E374C1A7B7E5F003442AD /* XBParserFactory.m */; };
 		D0CD82441A7B5BE500043573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD82431A7B5BE500043573 /* main.m */; };
 		D0CD82471A7B5BE500043573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD82461A7B5BE500043573 /* AppDelegate.m */; };
 		D0CD824A1A7B5BE500043573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD82491A7B5BE500043573 /* ViewController.m */; };
@@ -27,6 +33,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53C36A88AEB8E68F6C5C1935 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6D56CDBA4EA9DBD4554EE9DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D04E37381A7B5EB8003442AD /* XBHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBHttpClient.h; sourceTree = "<group>"; };
+		D04E37391A7B5EB8003442AD /* XBHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBHttpClient.m; sourceTree = "<group>"; };
+		D04E373C1A7B5F4E003442AD /* XBFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBFramework.h; path = XBFramework/XBFramework.h; sourceTree = "<group>"; };
+		D04E373E1A7B6A9E003442AD /* XBApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBApi.h; path = XBFramework/XBApi/XBApi.h; sourceTree = "<group>"; };
+		D04E373F1A7B6A9E003442AD /* XBApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBApi.m; path = XBFramework/XBApi/XBApi.m; sourceTree = "<group>"; };
+		D04E37441A7B7AB5003442AD /* XBParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBParser.h; path = XBFramework/XBParser/XBParser.h; sourceTree = "<group>"; };
+		D04E37451A7B7C66003442AD /* XBBaseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBBaseParser.h; path = XBFramework/XBParser/XBBaseParser.h; sourceTree = "<group>"; };
+		D04E37461A7B7C66003442AD /* XBBaseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBBaseParser.m; path = XBFramework/XBParser/XBBaseParser.m; sourceTree = "<group>"; };
+		D04E37481A7B7D49003442AD /* XBJsonParserEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBJsonParserEngine.h; path = XBFramework/XBParser/XBJsonParserEngine.h; sourceTree = "<group>"; };
+		D04E37491A7B7D49003442AD /* XBJsonParserEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBJsonParserEngine.m; path = XBFramework/XBParser/XBJsonParserEngine.m; sourceTree = "<group>"; };
+		D04E374B1A7B7E5F003442AD /* XBParserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBParserFactory.h; path = XBFramework/XBParser/XBParserFactory.h; sourceTree = "<group>"; };
+		D04E374C1A7B7E5F003442AD /* XBParserFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBParserFactory.m; path = XBFramework/XBParser/XBParserFactory.m; sourceTree = "<group>"; };
 		D0CD823E1A7B5BE500043573 /* XBHttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBHttpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CD82421A7B5BE500043573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0CD82431A7B5BE500043573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,7 @@
 		D0CD82571A7B5BE500043573 /* XBHttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBHttpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CD825C1A7B5BE500043573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0CD825D1A7B5BE500043573 /* XBHttpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBHttpClientTests.m; sourceTree = "<group>"; };
+		E9A034118128643DCFA26B32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D6F30C005C453CE7A615DA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +82,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CEB7AC09CD4C551DA32137A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D56CDBA4EA9DBD4554EE9DB /* Pods.debug.xcconfig */,
+				53C36A88AEB8E68F6C5C1935 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		835CAF0B5292C40EF7245F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9A034118128643DCFA26B32 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D04E372D1A7B5DE6003442AD /* XBFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D04E373D1A7B6A50003442AD /* XBApi */,
+				D04E373B1A7B5ECF003442AD /* XBParser */,
+				D04E37371A7B5EB8003442AD /* XBHttp */,
+				D04E37361A7B5E93003442AD /* XBUi */,
+				D04E373C1A7B5F4E003442AD /* XBFramework.h */,
+			);
+			name = XBFramework;
+			sourceTree = "<group>";
+		};
+		D04E37361A7B5E93003442AD /* XBUi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XBUi;
+			sourceTree = "<group>";
+		};
+		D04E37371A7B5EB8003442AD /* XBHttp */ = {
+			isa = PBXGroup;
+			children = (
+				D04E37381A7B5EB8003442AD /* XBHttpClient.h */,
+				D04E37391A7B5EB8003442AD /* XBHttpClient.m */,
+			);
+			name = XBHttp;
+			path = XBFramework/XBHttp;
+			sourceTree = "<group>";
+		};
+		D04E373B1A7B5ECF003442AD /* XBParser */ = {
+			isa = PBXGroup;
+			children = (
+				D04E37441A7B7AB5003442AD /* XBParser.h */,
+				D04E37451A7B7C66003442AD /* XBBaseParser.h */,
+				D04E37461A7B7C66003442AD /* XBBaseParser.m */,
+				D04E37481A7B7D49003442AD /* XBJsonParserEngine.h */,
+				D04E37491A7B7D49003442AD /* XBJsonParserEngine.m */,
+				D04E374B1A7B7E5F003442AD /* XBParserFactory.h */,
+				D04E374C1A7B7E5F003442AD /* XBParserFactory.m */,
+			);
+			name = XBParser;
+			sourceTree = "<group>";
+		};
+		D04E373D1A7B6A50003442AD /* XBApi */ = {
+			isa = PBXGroup;
+			children = (
+				D04E373E1A7B6A9E003442AD /* XBApi.h */,
+				D04E373F1A7B6A9E003442AD /* XBApi.m */,
+			);
+			name = XBApi;
+			sourceTree = "<group>";
+		};
 		D0CD82351A7B5BE500043573 = {
 			isa = PBXGroup;
 			children = (
 				D0CD82401A7B5BE500043573 /* XBHttpClient */,
 				D0CD825A1A7B5BE500043573 /* XBHttpClientTests */,
 				D0CD823F1A7B5BE500043573 /* Products */,
+				3CEB7AC09CD4C551DA32137A /* Pods */,
+				835CAF0B5292C40EF7245F14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +174,7 @@
 		D0CD82401A7B5BE500043573 /* XBHttpClient */ = {
 			isa = PBXGroup;
 			children = (
+				D04E372D1A7B5DE6003442AD /* XBFramework */,
 				D0CD82451A7B5BE500043573 /* AppDelegate.h */,
 				D0CD82461A7B5BE500043573 /* AppDelegate.m */,
 				D0CD82481A7B5BE500043573 /* ViewController.h */,
@@ -126,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0CD82611A7B5BE500043573 /* Build configuration list for PBXNativeTarget "XBHttpClient" */;
 			buildPhases = (
+				EB580F23C6DD1EF1CA5709E7 /* Check Pods Manifest.lock */,
 				D0CD823A1A7B5BE500043573 /* Sources */,
 				D0CD823B1A7B5BE500043573 /* Frameworks */,
 				D0CD823C1A7B5BE500043573 /* Resources */,
+				6FF877121E06A9839B7B1576 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +310,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FF877121E06A9839B7B1576 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB580F23C6DD1EF1CA5709E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0CD823A1A7B5BE500043573 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +350,12 @@
 			files = (
 				D0CD824A1A7B5BE500043573 /* ViewController.m in Sources */,
 				D0CD82471A7B5BE500043573 /* AppDelegate.m in Sources */,
+				D04E373A1A7B5EB8003442AD /* XBHttpClient.m in Sources */,
+				D04E374D1A7B7E5F003442AD /* XBParserFactory.m in Sources */,
 				D0CD82441A7B5BE500043573 /* main.m in Sources */,
+				D04E37401A7B6A9E003442AD /* XBApi.m in Sources */,
+				D04E37471A7B7C66003442AD /* XBBaseParser.m in Sources */,
+				D04E374A1A7B7D49003442AD /* XBJsonParserEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +475,7 @@
 		};
 		D0CD82621A7B5BE500043573 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D56CDBA4EA9DBD4554EE9DB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XBHttpClient/Info.plist;
@@ -351,6 +486,7 @@
 		};
 		D0CD82631A7B5BE500043573 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C36A88AEB8E68F6C5C1935 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XBHttpClient/Info.plist;
@@ -412,6 +548,7 @@
 				D0CD82631A7B5BE500043573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0CD82641A7B5BE500043573 /* Build configuration list for PBXNativeTarget "XBHttpClientTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +557,7 @@
 				D0CD82661A7B5BE500043573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,16 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "XBApi.h"
 
 @interface AppDelegate ()
-
+{
+}
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSString* url = @"http://115.236.11.98:9090/tzs/app/customer/login";
+    NSDictionary* dicParas = @{@"loginName":@"123",@"pass":@"123"};
+    
+    
+    [[XBApi SharedXBApi] requestWithURL:url paras:dicParas type:XBHttpResponseType_Json success:^(NSObject* result){
+        
+    } failure:^(NSError* error){
+        NSLog(@"%@",error);
+    }];
+    
+    
+    
     return YES;
 }
 
